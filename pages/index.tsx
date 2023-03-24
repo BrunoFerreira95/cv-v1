@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className='flex w-screen justify-center'>
         <div className='bg-boardall w-11/12 min-h-boardh rounded-3xl mt-8 flex lg:flex-row flex-col sm:flex-col mb-10'>
-          <aside className='bg-gradient-to-b from-laranja to-meiolaranja min-h-boardall lg:w-1/4 sm:w-full rounded-l-3xl rounded-r-3xl lg:rounded-r-none'>
+          <aside className='bg-gradient-to-b from-laranja to-meiolaranja min-h-boardall lg:w-1/4 sm:w-full rounded-l-3xl rounded-r-3xl lg:rounded-r-none pb-5'>
             <div className='flex justify-center'>
               <Image src={FotoBruno} alt='Foto do desenvolvedor Bruno' className='mt-10'/>
             </div>
@@ -22,7 +22,7 @@ export default function Home() {
                 Desenvolvedor
               </span>
             </div>
-            <div className='flex flex-row sm:pb-5'>
+            <div className='flex flex-row '>
               <a href="https://www.linkedin.com/in/brunofpedraca/" target='_blank'>
                 <button className='w-14 h-14 border-solid border-1 bg-icon rounded-full flex justify-center items-center mx-8 mt-8 hover:animate-bounce'>
                   <Image src={LinkedinIcon} alt='icon do linkedin'/>
