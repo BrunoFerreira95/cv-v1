@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div className='flex w-screen justify-center'>
-        <div className='bg-boardall w-11/12 min-h-boardh rounded-3xl mt-8 flex lg:flex-row sm:flex-col mb-10'>
+        <div className='bg-boardall w-11/12 min-h-boardh rounded-3xl mt-8 flex lg:flex-row flex-col sm:flex-col mb-10'>
           <aside className='bg-gradient-to-b from-laranja to-meiolaranja min-h-boardall lg:w-1/4 sm:w-full rounded-l-3xl rounded-r-3xl lg:rounded-r-none'>
             <div className='flex justify-center'>
               <Image src={FotoBruno} alt='Foto do desenvolvedor Bruno' className='mt-10'/>
